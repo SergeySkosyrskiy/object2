@@ -27,11 +27,11 @@ public class Author {
             return false;
         }
         Author author = (Author) o;
-        return name.equals(author.name)&& lastName.equals(author.lastName);
+        return name.equals(author.name) && lastName.equals(author.lastName);
     }
 
-    public int hashCode(){
-        return name.hashCode()+ lastName.hashCode();
+    public int hashCode() {
+        return name.hashCode() + lastName.hashCode();
     }
 
 }

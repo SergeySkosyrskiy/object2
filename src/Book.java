@@ -21,7 +21,5 @@ public class Book {
         this.yearPublicationBook = yearPublicationBook;
     }
 
-
-
 }
 
